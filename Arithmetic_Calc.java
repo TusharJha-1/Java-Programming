@@ -7,7 +7,7 @@ public class Arithmetic_Calc {
         int a = sc.nextInt();
         System.out.print("Enter 2nd number: ");
         int b = sc.nextInt();
-        System.out.println("Choose the number of operation to perfom:\n1.) Addition\n2.) Subtraction\n3.) Multiplication\n4.) Division\n5.) Modulo");
+        System.out.println("Choose the number of operation to perform:\n1.) Addition\n2.) Subtraction\n3.) Multiplication\n4.) Division\n5.) Modulo");
         int ch = sc.nextInt();
         switch(ch){
             case 1:
