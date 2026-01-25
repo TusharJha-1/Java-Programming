@@ -60,7 +60,7 @@ public class Rock_Paper_Scissor {
             }
             else if(cpu==3 && user==3){
                 System.out.format("CPU choice : %d\nUSER choice : %d\n",cpu,user);
-                System.out.println("!!!!It's a DRAW!!!!");
+                System.out.println("!!!!It\'s a DRAW!!!!");
                 System.out.format("CPU score : %d\nUSER score : %d\n",CPU,USER);
             }
             else{
