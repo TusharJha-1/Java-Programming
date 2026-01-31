@@ -8,16 +8,15 @@ public class Pattern_2 {
         System.out.print("Enter breadth: ");
         int b = sc.nextInt();
         for(int i=1;i<=a;++i){
-            if(i==1 || i==a){
-                for(int j=1;j<b;++j){
+            for(int j=1;j<=b;++j){
+                if(i==1 || i==a || j==1 || j==b){
                     System.out.print("* ");
                 }
-            }
-            else{
-                for(int j=1;j<b;++j){
-                    System.out.print("* ");
+                else{
+                    System.out.print("  ");
                 }
             }
+            System.out.println();
         }
     }
 }
