@@ -6,7 +6,7 @@ public class Pattern_6 {
         System.out.print("Enter length of side : ");
         int a = sc.nextInt();
         for(int i=a;i>=1;--i){
-            for(int j=1;j<=i;++j){
+            for(int j=1;j<=i-1;++j){
                 System.out.print("  ");
             }
             for(int k=1;k<=a;++k){
