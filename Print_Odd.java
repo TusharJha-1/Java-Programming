@@ -7,7 +7,7 @@ public class Print_Odd {
             System.out.print(i+" ");
             i+=2;
         }
-        return;
+        return;  //Optional in case of void function
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
