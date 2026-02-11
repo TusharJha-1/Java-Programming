@@ -2,18 +2,20 @@ import java.util.Scanner;
 
 public class Search_Matrix {
     public static void search(int num,int arr[][],int r,int c){
-        System.out.format("The element %d is present at index : ",num);
         int cc=0;
         for(int i=0;i<r;++i){
             for(int j=0;j<c;++j){
                 if(arr[i][j]==num){
+                    if(cc==0){
+                        System.out.format("The element %d is present at index : ",num);
+                    }
                     System.out.format("(%d,%d), ",i,j);
                     ++cc;
                 }
             }
         }
         if(cc==0){
-            System.out.format("The element %d is not present in the given matrix",num);
+            System.out.format("The element %d is not present in the given matrix.",num);
         }
     }
     public static void display(int arr[][],int r,int c){
@@ -26,7 +28,6 @@ public class Search_Matrix {
             System.out.print("]");
             System.out.println();
         }
-
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
