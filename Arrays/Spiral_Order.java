@@ -28,7 +28,7 @@ public class Spiral_Order {
         int end_row = rows-1;
         int start_col = 0;
         int end_col = cols-1;
-        while(start_row<end_row && start_col<end_col){
+        while(start_row<=end_row && start_col<=end_col){
             //top boundary
             for(int j=start_col;j<=end_col;++j){
                 System.out.print(mat[start_row][j]+" ");
@@ -40,15 +40,19 @@ public class Spiral_Order {
             }
             --end_col;
             //bottom boundary
-            for(int j=end_col;j>=start_col;--j){
-                System.out.print(mat[end_row][j]+" ");
+            if(start_row<=end_row){
+                for(int j=end_col;j>=start_col;--j){
+                    System.out.print(mat[end_row][j]+" ");
+                }
+                --end_row;
             }
-            --end_row;
             //left boundary
-            for(int i=end_row;i>=start_row;--i){
-                System.out.print(mat[i][start_col]+" ");
+            if(start_col<end_col){
+                for(int i=end_row;i>=start_row;--i){
+                    System.out.print(mat[i][start_col]+" ");
+                }
+                ++start_col;
             }
-            ++start_col;
         }
     }
 }
