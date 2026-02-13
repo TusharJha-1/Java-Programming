@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MaxMin_Arr {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the no. of elements in the matrix : ");
+        System.out.print("Enter the number of elements in the matrix : ");
         int n = sc.nextInt();
         int []mat = new int[n];
         int min = Integer.MAX_VALUE;
