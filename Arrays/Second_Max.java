@@ -1,6 +1,6 @@
 public class Second_Max {
     public static void main(String[] args) {
-        int []arr = {-1,5,8,0,-100,4};
+        int []arr = {-1,5,8,0,-100,4,8};
         int x = Integer.MIN_VALUE;
         int y = Integer.MIN_VALUE;
         for(int i:arr){
