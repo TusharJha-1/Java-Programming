@@ -38,7 +38,7 @@ public class AddTwoArr {
         return ans;
     }
     public static void main(String[] args) {
-        int[] a = {9,9,9};
+        int[] a = {9,9,9,9};
         int[] b = {9,9,9};
         int min = Math.min(a.length,b.length);
         int max = Math.max(a.length,b.length);
