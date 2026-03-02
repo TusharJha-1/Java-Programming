@@ -45,8 +45,8 @@ public class AddTwoArr {
         return ans;
     }
     public static void main(String[] args) {
-        int[] a = {};
-        int[] b = {};
+        int[] a = {1,2,3,4,5,6,7,8,9};
+        int[] b = {9,8,7,6,5,4,3,2,1};
         int max = Math.max(a.length,b.length);
         ArrayList<Integer> ans = new ArrayList<>();
         for(int i=0;i<max;++i){
