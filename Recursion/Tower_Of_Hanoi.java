@@ -1,5 +1,5 @@
 import java.util.*;
-public class Prog2 {
+public class Tower_Of_Hanoi {
     public static void hanoi(int n, String src,String help, String dest) {
         if(n==1){
             System.out.println("Move disc "+n+" from "+ src + " to "+ dest);
