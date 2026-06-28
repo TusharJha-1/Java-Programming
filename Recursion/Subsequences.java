@@ -1,4 +1,4 @@
-public class Subsequences{
+git public class Subsequences{
     public static void subs(String s, int index, String ans){
         if(index==s.length()){
             System.out.println(ans);
