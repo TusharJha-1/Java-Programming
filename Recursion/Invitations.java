@@ -9,6 +9,6 @@ public class Invitations {
         }
     }
     public static void main(String[] args) {
-        System.out.println(invites(4));
+        System.out.println(invites(5));
     }
 }
