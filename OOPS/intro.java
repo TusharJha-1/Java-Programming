@@ -41,15 +41,19 @@ public class Intro {
         obj1.name = "Tushar Jha";
         System.out.println(obj1.name);
 
+
         //final keyword reassignment is not possible for non-primitive data types
         //obj1 = new A("Ram Jha");
 
+
         // final keyword reassignment/modification is not possible for primitive data types
-        try{
-            obj1.x = 20;
-        } catch(Exception e){
-            System.out.println("Final keyword reassignment/modification is not possible for primitive data types");
-        }
+        //Can't be handled as final errors are compile time errors(runtime can be handled)
+        
+        // try{
+        //     obj1.x = 20;
+        // } catch(Exception e){
+        //     System.out.println("Final keyword reassignment/modification is not possible for primitive data types");
+        // }
         
 
     }
@@ -87,5 +91,11 @@ class Student{
 
     void display(){
         System.out.println("{"+rollNo+","+name+","+marks+"}");
+    }
+
+
+    //whenever an object of class A is destroyed, this function is called by garbage collector
+    protected void finalize() throws Throwable {
+        System.out.println("Object is destroyed");
     }
 }
