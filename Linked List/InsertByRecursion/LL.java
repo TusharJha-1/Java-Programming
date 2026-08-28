@@ -61,8 +61,8 @@ public class LL{
         list.insertRec(list.head, 1, 0);
         list.insertRec(list.head, 9, 0);
         list.insertRec(list.head, 5, 0);
-        list.insertRec(list.head, 3, -1);
-        list.insertRec(list.head, 7, 4);
+        list.insertRec(list.head, 3, 0);
+        list.insertRec(list.head, 7, 1);
 
         ListNode temp = list.head;
         System.out.println("The currentlinked list is :");
