@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class CustomStack {
     protected int[] data;
     private static final int DEFAULT_SIZE = 10;
@@ -48,20 +46,6 @@ public class CustomStack {
 
     public boolean isEmpty(){
         return ptr==-1;
-    }
-
-    public static void main(String[] args) throws Exception {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the size of the stack : ");
-        int n = sc.nextInt();
-        CustomDynamicStack stack = new CustomDynamicStack(n);
-        stack.push(10);
-        stack.push(20);
-        stack.push(30);
-        stack.push(40);
-        stack.push(50);
-        System.out.println(stack.peek());
-        sc.close();
     }
 }
 
