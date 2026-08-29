@@ -31,11 +31,12 @@ public class CustomQueue {
         if(isEmpty()){
             throw new Exception("Underflow error!!");
         }
-        for(int i=1;i<end;++i){
+        int removed = data[0];
+        for(int i=1;i<=end;++i){
             data[i-1] = data[i];
         }
         --end;
-        return data[0];
+        return removed;
     }
     
     public int front() throws Exception{
@@ -54,7 +55,7 @@ public class CustomQueue {
 
     public void display(){
         for(int i=0;i<=end;++i){
-            System.out.print(data[end]+" ");
+            System.out.print(data[i]+" ");
         }
         System.out.println("END");
     }
