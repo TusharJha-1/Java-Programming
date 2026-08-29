@@ -5,7 +5,7 @@ public class QueueMain {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size : ");
         int size = sc.nextInt();
-        CustomQueue queue = new CustomQueue(size);
+        CircularQueue queue = new CircularQueue(size);
         queue.offer(10);
         queue.offer(20);
         queue.offer(30);
@@ -14,8 +14,15 @@ public class QueueMain {
 
         queue.display();
 
-        System.out.println("The polled element is : "+queue.poll());
-        System.out.println("The polled element is : "+queue.poll());
+        System.out.println("The polled element is : " + queue.poll());
+        // System.out.println("The polled element is : " + queue.poll());
+        // System.out.println("The polled element is : " + queue.poll());
+        // System.out.println("The polled element is : " + queue.poll());
+        // System.out.println("The polled element is : " + queue.poll());
+        queue.display();
+        queue.offer(10);
+        System.out.println(queue.front());
+        System.out.println(queue.last());
         queue.display();
     }
 }
