@@ -12,6 +12,7 @@ public class StackMain {
         stack.push(40);
         stack.push(50);
         System.out.println(stack.peek());
+        stack.display();
         sc.close();
     }
 }

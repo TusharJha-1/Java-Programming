@@ -47,5 +47,12 @@ public class CustomStack {
     public boolean isEmpty(){
         return ptr==-1;
     }
+
+    public void display(){
+        for(int i=0;i<=ptr;++i){
+            System.out.println("[ "+data[i]+" ]");
+        }
+        System.out.println("END");
+    }
 }
 
