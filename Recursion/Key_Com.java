@@ -1,5 +1,5 @@
 public class Key_Com {
-    public static String[] keypad = {".","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+    public static String[] keypad = {".",".","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
     public static void keyCombination(String str, int index, String combination){
         if(index==str.length()){
             System.out.println(combination);

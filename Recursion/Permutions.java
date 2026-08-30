@@ -12,7 +12,7 @@ public class Permutions {
         }
     }
     public static void main(String[] args) {
-        String str = "aaa";
+        String str = "abc";
         HashSet<String> set = new HashSet<>();
         permutation(str,"",set);
         for(String s:set){
