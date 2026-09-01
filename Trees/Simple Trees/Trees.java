@@ -32,19 +32,20 @@ public class Trees {
         }
     }
 
-    private static void insert(Scanner sc){
+    public static void insert(Scanner sc){
         System.out.print("Enter the root node value: ");
-        int root = sc.nextInt();
-        insertion(root);
+        Node root = new Node();
+        root.val = sc.nextInt();
+        insert(sc, root);
     }
-    private static void insertion(Scanner sc, Node node){
+    private static void insert(Scanner sc, Node node){
         System.out.print("Do you want to enter the left of "+node.val+" :");
         boolean left = sc.nextBoolean();
         if(left){
             System.out.print("Enter the value of left node : ");
             int value = sc.nextInt();
             node.left = new Node(value);
-            insertion(sc, node);
+            insert(sc, node);
         }
 
         System.out.print("Do you want to enter the right of " + node.val + " :");
@@ -53,7 +54,22 @@ public class Trees {
             System.out.print("Enter the value of right node : ");
             int value = sc.nextInt();
             node.right = new Node(value);
-            insertion(sc, node);
+            insert(sc, node);
         }
     }
+
+    public static void display(){
+        display(root,0);
+    }
+
+    private static void display(Node node, int level){
+        if(node==null){
+            return;
+        }
+        
+    }
+    public static void main(String[] args) {
+        
+    }
+
 }
