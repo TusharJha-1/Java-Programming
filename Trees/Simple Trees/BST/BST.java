@@ -43,6 +43,23 @@ public class BST{
         display(node.right, "Right Child of " + node.getValue() + " : ");
     }
 
+    public void insert(int value){
+        insert(value,root);
+    }
+    private Node insert(int value, Node node){
+        if(node==null){
+            node = new Node(value);
+        }
+        if(value<node.val){
+            node.left = insert(value, node.left);
+        }
+        else{
+            node.right = insert(value, node.right);
+        }
+        node.height = Math.max(height(node.left),height(node.right));
+        return node;
+    }
+
     public static void main(String[] args) {
         
     }
