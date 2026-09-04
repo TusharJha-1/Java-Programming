@@ -1,32 +1,32 @@
 public class Box{
-    double length;
-    double height;
-    double width;
+    double l;
+    double h;
+    double w;
 
     Box(){
-        this.length = -1;
-        this.height = -1;
-        this.width = -1;
+        this.l = -1;
+        this.h = -1;
+        this.w = -1;
     }
 
     //Cube
     Box(double side){
-        this.length = side;
-        this.height = side;
-        this.width = side;
+        this.l = side;
+        this.h = side;
+        this.w = side;
     }
 
     //Cuboid
-    Box(double length, double height, double width) {
-        this.length = length;
-        this.height = height;
-        this.width = width;
+    Box(double l, double w,  double h) {
+        this.l = l;
+        this.w = w;
+        this.h = h;
     }
 
     Box(Box old){
-        this.length = old.length;
-        this.height = old.height;
-        this.width = old.width;
+        this.l = old.l;
+        this.h = old.h;
+        this.w = old.w;
     }
 
     public void display(){
