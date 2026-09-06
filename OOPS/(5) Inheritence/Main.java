@@ -12,10 +12,10 @@ public class Main {
         //creating object of child class with reference var of parent class
         //This can't access the child class properties and scope depends on reference
         
-        //The code line(16 - 19) in Box_Weight.java is exactly implementing this
         Box box5 = new Box_Weight(1, 2, 3, 4);
+        //The code line(16 - 19) in Box_Weight.java is exactly implementing this
         Box_Weight bx5 = new Box_Weight(bx2);
-        System.out.println("lllll "+bx5.weight);
+        System.out.println("Weight : "+bx5.weight);
 
         //Not possible to access child properties
         //System.out.println(box5.weight);
@@ -24,7 +24,7 @@ public class Main {
         System.out.println(box5.l +" "+ box5.w + " " + box5.h);
     
         //Now creating object of parent class referencing to child class
-        //Not possible becouse child class wants to initialize the weight but parent has no idea of that 
+        //Not possible because child class wants to initialize the weight but parent has no idea of that 
         // Box_Weight bx6 = new Box(2,3,4);
         //Hence, we can't do this
 
