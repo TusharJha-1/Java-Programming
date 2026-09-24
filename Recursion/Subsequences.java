@@ -11,7 +11,7 @@ public class Subsequences{
         subs(s,index+1,ans);
     }
     public static void main(String[] args) {
-        String s = "abcd";
+        String s = "aaa";
         subs(s,0,"");
     }
 }
