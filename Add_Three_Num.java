@@ -4,7 +4,6 @@ public class Add_Three_Num {
         int b = 15;
         int c = 20;
         int sum = a + b+ c;
-        System.out.print("The sum of the 3 numbers are : ");
-        System.out.println(sum);
+        System.out.print("The sum of the 3 numbers are : "+sum);
     }
 }
