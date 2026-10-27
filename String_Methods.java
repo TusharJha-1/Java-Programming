@@ -29,5 +29,6 @@ public class String_Methods {
         //Escape Sequence
         String letter1 = "\"Dear Tushar, You\'ll be successful in life.\"";
         System.out.println(letter1);
+        sc.close();
     }
 }

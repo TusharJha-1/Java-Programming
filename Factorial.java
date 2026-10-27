@@ -10,6 +10,7 @@ public class Factorial{
             fact*=i;
         }
         System.out.format("The factorial of the number %d is %d",a,fact);
+        sc.close();
     }
 }
 

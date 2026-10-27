@@ -24,5 +24,6 @@ public class QueueMain {
         System.out.println(queue.front());
         System.out.println(queue.last());
         queue.display();
+        sc.close();
     }
 }

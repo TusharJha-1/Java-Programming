@@ -21,5 +21,6 @@ public class Pattern_8 {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

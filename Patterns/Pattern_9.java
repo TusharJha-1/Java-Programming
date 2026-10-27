@@ -23,5 +23,6 @@ public class Pattern_9 {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

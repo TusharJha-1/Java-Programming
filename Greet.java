@@ -5,5 +5,6 @@ public class Greet {
         System.out.print("Enter you good name : ");
         String str = sc.nextLine();
         System.out.println("Hello! "+str+". Have a good day.");
+        sc.close();
     }
 }

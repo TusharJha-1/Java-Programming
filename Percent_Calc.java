@@ -16,5 +16,6 @@ public class Percent_Calc {
         float sub5 = sc.nextFloat();
         float percentage = ((sub1+sub2+sub3+sub4+sub5)/(5*totalMarks))*100;
         System.out.println("Percentage of the student as per marks is "+ percentage+"%");
+        sc.close();
     }
 }

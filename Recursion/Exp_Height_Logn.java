@@ -26,5 +26,6 @@ public class Exp_Height_Logn {
         System.out.print("Enter the power:");
         int power = sc.nextInt();
         System.out.format("The result is : %f",exp(n,power));
+        sc.close();
     }
 }

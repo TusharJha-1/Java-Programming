@@ -24,5 +24,6 @@ public class Pos_Neg_Zero {
             a = sc.next();
         } while (a.equalsIgnoreCase("y"));
         System.out.println("Thank you !!!");
+        sc.close();
     }
 }

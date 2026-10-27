@@ -11,5 +11,6 @@ public class Count_1 {
             num = num>>1;
         }
         System.out.println(cc);
+        sc.close();
     }
 }

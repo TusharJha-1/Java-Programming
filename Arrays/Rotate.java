@@ -21,5 +21,6 @@ public class Rotate {
         for(int k:arr){
             System.out.print(k+" ");
         }
+        sc.close();
     }
 }

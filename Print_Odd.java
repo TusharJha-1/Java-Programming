@@ -16,5 +16,6 @@ public class Print_Odd {
         System.out.print("Enter the end of range : ");
         int b = sc.nextInt();
         printOdd(a,b);
+        sc.close();
     }
 }

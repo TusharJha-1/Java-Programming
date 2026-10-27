@@ -10,5 +10,6 @@ public class Even_Odd {
         else{
             System.out.format("The entered number %d is odd.",a);
         }
+        sc.close();
     }
 }

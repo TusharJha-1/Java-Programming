@@ -79,6 +79,6 @@ public class Rock_Paper_Scissor {
         else{
             System.out.println("\n!!!!The game of Rock-Paper-Scissor is Drawn!!!!");
         }
-
+        sc.close();
     }
 }

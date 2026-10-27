@@ -11,6 +11,7 @@ public class Pattern_3 {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
 

@@ -5,5 +5,6 @@ public class IsInteger {
         System.out.print("Enter a literal value : ");
         boolean b = sc.hasNextInt();
         System.out.println("Is the entered literal an integer : "+b);
+        sc.close();
     }
 }

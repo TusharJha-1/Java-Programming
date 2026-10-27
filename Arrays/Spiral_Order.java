@@ -54,5 +54,6 @@ public class Spiral_Order {
                 ++start_col;
             }
         }
+        sc.close();
     }
 }

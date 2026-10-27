@@ -11,5 +11,6 @@ public class Is_Power_Of_2 {
         else{
             System.out.println("No, It's not a power of 2");
         }
+        sc.close();
     }
 }

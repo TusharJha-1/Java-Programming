@@ -27,6 +27,7 @@ public class Arithmetic_Calc {
                 break;  
             default:
                 System.out.println("!!!!!!Invalid Argument!!!!!!");  
+        sc.close();
         }
     }
 }

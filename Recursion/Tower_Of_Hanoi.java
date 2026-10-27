@@ -15,5 +15,6 @@ public class Tower_Of_Hanoi {
         System.out.print("Enter the number of discs on src : ");
         int n = sc.nextInt();
         hanoi(n,"A","B","C");
+        sc.close();
     }
 }

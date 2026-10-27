@@ -25,5 +25,6 @@ public class Fibonacci {
         System.out.print("Enter the number of terms to be printed : ");
         int num = sc.nextInt();
         fibbo(num);
+        sc.close();
     }
 }

@@ -13,5 +13,6 @@ public class Func_Factorial {
         System.out.print("Enter the number : ");
         int a = sc.nextInt();
         System.out.format("The factorial of %d is %d.",a,factorial(a));
+        sc.close();
     }
 }

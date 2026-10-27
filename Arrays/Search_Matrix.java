@@ -46,5 +46,6 @@ public class Search_Matrix {
         }
         display(mat,rows,cols);
         search(n,mat,rows,cols);
+        sc.close();
     }
 }

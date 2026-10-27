@@ -14,5 +14,6 @@ public class Toggle_Bit {
         else{
             System.out.println((~BitMask) & num);
         }
+        sc.close();
     }
 }

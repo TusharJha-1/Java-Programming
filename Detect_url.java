@@ -13,5 +13,6 @@ public class Detect_url {
         else if(url.endsWith(".in")){
             System.out.println("It's a indian website.");
         }
+        sc.close();
     }
 }

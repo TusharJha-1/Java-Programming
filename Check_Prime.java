@@ -24,5 +24,6 @@ public class Check_Prime {
                 }
             }
         }
+        sc.close();
     }
 }

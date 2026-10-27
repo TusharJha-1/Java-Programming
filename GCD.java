@@ -30,6 +30,7 @@ public class GCD {
         }
         else{
             System.out.format("The GCD of %d and %d is %d",m,n,gcd(m,n));
+        sc.close();
         }
     }
 }

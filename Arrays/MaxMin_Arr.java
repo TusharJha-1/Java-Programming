@@ -30,5 +30,6 @@ public class MaxMin_Arr {
         }
         System.out.println("The maximum element in the array is "+ max);
         System.out.println("The minimum element in the array is "+ min);
+        sc.close();
     }
 }
